@@ -1,0 +1,1 @@
+python3 -m vllm.entrypoints.openai.api_server --model llava-hf/llava-1.5-7b-hf --chat-template template_llava.jinja --max_model_len 1376 --enable-lora --lora-modules sql-lora=./models/llava_hagrid_tuned_lora

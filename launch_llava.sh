@@ -1,0 +1,1 @@
+python3 -m vllm.entrypoints.openai.api_server --model saves/LLaVA1.5-7B-Chat/freeze/train_2024-09-24-19-41-38/checkpoint-498  --chat-template template_llava.jinja --max_model_len 1376
